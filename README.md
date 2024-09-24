@@ -120,3 +120,31 @@ Blogs like CSS-Tricks, Smashing Magazine, and Dev.to are great for keeping up wi
 25. **_What websites are your favorite, in terms of design and development?_**
 
 Mention websites that inspire you, either due to their clean design, innovative use of technology, or user experience.
+
+### Advanced Front-End Developer Questions
+
+26. **_Discuss the biggest achievement of your career._**
+
+Describe a project, accomplishment, or contribution you're most proud of.
+
+27. **_Discuss the biggest challenge of your career._**
+
+Share an instance where you overcame a difficult problem, like optimizing a slow site or debugging an intricate issue.
+
+28. **_What was your last project? How did it go?_**
+
+Discuss your recent work, challenges faced, and the technologies used.
+
+29. **_How do you effectively manage your time?_**
+
+Time management techniques include setting priorities, breaking tasks into smaller
+steps, and using tools like Trello, Notion, or Jira.
+
+30. **_What do you do when you get stuck?_**
+
+Break the problem down, research the issue, seek help from peers or communities like StackOverflow, or take a break to gain a fresh perspective.
+
+31. **_What do you do when you get something wrong?_**
+
+I analyze the mistake, learn from it, and apply the lessons to future work to avoid
+repeating the error.

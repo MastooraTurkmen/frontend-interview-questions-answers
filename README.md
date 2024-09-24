@@ -171,3 +171,18 @@ Media queries allow you to apply different styles based on screen size. For exam
 }
 
 ```
+
+### JavaScript Front-End Developer Questions
+
+35. What is the difference between `==` and `===`?
+
+`==` performs type coercion before comparing, while `===` checks both value and type, making it a stricter comparison.
+
+36. **_What is the difference between an anonymous function and a named function?_**
+
+An anonymous function has no name and is often used in callbacks, while a named function is defined with a name, making it reusable and easier to debug.
+
+37. **_What is an event loop?_**
+
+The event loop in JavaScript manages asynchronous operations, ensuring that functions are executed after all synchronous code is complete.
+

@@ -148,3 +148,26 @@ Break the problem down, research the issue, seek help from peers or communities 
 
 I analyze the mistake, learn from it, and apply the lessons to future work to avoid
 repeating the error.
+
+## Technical Front-End Developer Questions
+
+### HTML Front-End Developer Questions
+
+32. **_What are the differences between HTML5 and HTML4?_**
+
+HTML5 introduced new elements like `<article>`, `<section>`, `<video>`, and better multimedia handling, while removing elements like `<font>` and providing better support for responsive design.
+
+33. **_How would you create a custom error page?_**
+
+Set up custom error handling in the server configuration (like .htaccess for Apache), and design an HTML page with error-specific messages like 404 or 500.
+
+34. **_How do you use media queries to optimize for different screen sizes?_**
+
+Media queries allow you to apply different styles based on screen size. For example:
+
+```css
+@media (max-width: 768px) {
+/_ Styles for tablets and mobile _/
+}
+
+```

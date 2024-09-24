@@ -186,3 +186,19 @@ An anonymous function has no name and is often used in callbacks, while a named 
 
 The event loop in JavaScript manages asynchronous operations, ensuring that functions are executed after all synchronous code is complete.
 
+### CSS Front-End Developer Questions
+
+38. **_What are the differences between inline, embedded, and external stylesheets?_**
+
+Inline styles are applied directly in the HTML tag, embedded styles are within the
+
+`<style>` tag in the HTML file, and external stylesheets are linked to an HTML file
+via the `<link>` tag.
+
+39. **_How do you create a responsive layout?_**
+
+By using media queries, flexible units like `em` or `%`, and responsive frameworks like Bootstrap or CSS Grid/Flexbox.
+
+40. **_How do you use animation and transitions?_**
+
+CSS animations and transitions allow smooth changes in element properties over time. For example:

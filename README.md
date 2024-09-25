@@ -350,6 +350,10 @@ The `<canvas>` element is used to draw graphics on the fly via JavaScript, allow
 
 Block-level elements occupy the full width available and start on a new line (e.g., `<div>`, `<h1>`), while inline elements only take up as much width as necessary and do not start on a new line (e.g., `<span>`, `<a>`).
 
-27. **_What is the purpose of the `<form>` element?_**
+31. **_What is the purpose of the `<form>` element?_**
 
 The `<form>` element is used to collect user input, containing various input elements like text fields, radio buttons, checkboxes, and submit buttons.
+
+32. **_What is the difference between the `<link>` and `<script>` tags?_**
+
+The `<link>` tag is used to link external resources like CSS stylesheets, while the `<script>` tag is used to include or reference JavaScript files.

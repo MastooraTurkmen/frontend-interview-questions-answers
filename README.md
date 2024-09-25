@@ -337,3 +337,19 @@ It provides a hint to the user of what they should enter into an input field, vi
 27. **_How does HTML5 improve form validation?_**
 
 HTML5 introduces built-in validation features, such as required, pattern, email, and number input types, without relying on JavaScript.
+
+28. **_What is the purpose of the `<meta>` tag?_**
+
+The `<meta>` tag provides metadata about the HTML document, such as character set, page description, keywords, author, and viewport settings
+
+29. **_What is the `<canvas>` element used for?_**
+
+The `<canvas>` element is used to draw graphics on the fly via JavaScript, allowing for dynamic, scriptable rendering of 2D shapes and images.
+
+30. **_What is the difference between block-level and inline elements?_**
+
+Block-level elements occupy the full width available and start on a new line (e.g., `<div>`, `<h1>`), while inline elements only take up as much width as necessary and do not start on a new line (e.g., `<span>`, `<a>`).
+
+27. **_What is the purpose of the `<form>` element?_**
+
+The `<form>` element is used to collect user input, containing various input elements like text fields, radio buttons, checkboxes, and submit buttons.

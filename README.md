@@ -202,3 +202,138 @@ By using media queries, flexible units like `em` or `%`, and responsive framewor
 40. **_How do you use animation and transitions?_**
 
 CSS animations and transitions allow smooth changes in element properties over time. For example:
+
+```css
+.box {
+  transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: scale(1.2);
+}
+```
+
+### HTML Questions
+
+1. **_What is HTML?_**
+
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It describes the structure of a webpage using elements such as headings, paragraphs, links, and images.
+
+2. **_What is a DOCTYPE in HTML?_**
+
+A DOCTYPE is a declaration that tells the web browser which version of HTML the page is written in. It ensures that the browser renders the page correctly.
+
+3. **_What is the difference between `<div>` and `<span>` in HTML?_**
+
+`<div>` is a block-level element, meaning it takes up the full width available. It is used for grouping content. `<span>` is an inline element, meaning it takes only the space its content needs, and is used to apply styles to parts of text.
+
+4. **_What is the purpose of the alt attribute on an `<img>` tag?_**
+
+The alt attribute provides alternative text for an image if it cannot be displayed. It also improves accessibility for visually impaired users and helps with SEO.
+
+5. **_What is semantic HTML?_**
+
+Semantic HTML refers to using HTML elements for their intended purposes. For example, using `<article>`, `<section>`, `<header>`, and `<footer>` to clearly define the structure of the content, improving accessibility and SEO.
+
+6. **_What is the difference between localStorage and sessionStorage in HTML5?_**
+
+localStorage stores data with no expiration time, meaning the data persists even after the browser is closed. sessionStorage stores data for a session, and the data is cleared when the page session ends (when the browser is closed).
+
+7. **_What are the new form input types introduced in HTML5?_**
+
+HTML5 introduced new input types like _email, url, tel, date, time, range, color_, and _search._
+
+8. **_What is the difference between a class and an id in HTML?_**
+
+An id is unique within the page and is used to identify one specific element, while a class can be used on multiple elements and is generally used for styling groups of elements.
+
+9. **_What are meta tags in HTML?_**
+
+Meta tags provide metadata about the HTML document, such as descriptions, keywords, viewport settings, and character sets. These tags are placed in the
+`<head>` section.
+
+10. **_How can you make a hyperlink open in a new tab?_**
+
+By adding the `target="\_blank"` attribute to an `<a>` tag, the link will open in a new tab.
+
+11. **_What is the aria-label attribute used for?_**
+
+The aria-label provides an accessible name for an element, often used with screen readers for users with disabilities.
+
+12. **_What is the difference between the b tag and strong tag in HTML?_**
+
+Both render text as bold, but strong has semantic meaning, indicating importance, while b is purely presentational.
+
+13. **_What is the difference between the `<canvas>` element and the `<svg>` element?_**
+
+`<canvas>` is pixel-based and used for drawing graphics on the fly, while `<svg>` is vector-based and scales better for various screen sizes.
+
+14. **_How does the `<picture>` tag improve responsive image handling?_**
+
+The `<picture>` element allows you to specify different images for different screen sizes or resolutions, optimizing performance.
+
+15. **_What is the role of the `<template>` tag in HTML5?_**
+
+`<template>` is used to declare fragments of HTML that are not rendered when the page loads but can be later activated using JavaScript.
+
+16. **_What is the defer attribute in the `<script>` tag used for?_**
+
+It tells the browser to execute the script after the document has been parsed, improving page load performance.
+
+17. **_What is an HTML entity, and why is it important?_**
+
+HTML entities represent reserved characters `(like < as &lt;)`. They're necessary to display characters that would otherwise be interpreted as HTML.
+
+18. **_What does the `<link rel="stylesheet">` tag do in HTML?_**
+
+It links an external CSS file to an HTML document, allowing the document to use styles defined in the file.
+
+19. **_How do you make a dropdown list using HTML?_**
+
+Use the `<select>` element with `<option>` tags inside. Example:
+
+```css
+<select>
+  <option>Option 1</option>
+</select>
+```
+
+20. **_What is the purpose of the `<details>` and `<summary>` tags in HTML5?_**
+
+These elements allow for a collapsible content section that can be opened or closed by the user.
+
+21. **_How can you include audio and video in a web page using HTML5?_**
+
+Use the `<audio>` and `<video>` elements with appropriate src attributes.
+
+Example:
+
+```css
+<video controls>
+  <source src="movie.mp4" type="video/mp4" />
+</video>
+
+```
+
+22. **_How do you make text editable in HTML?_**
+
+Use the contenteditable attribute on an element, like `<div contenteditable="true">Editable text</div>`.
+
+23. **_What is the use of the `<noscript>` tag in HTML?_**
+
+The `<noscript>` tag defines alternative content to be displayed if JavaScript is disabled or unsupported in the browser.
+
+24. **_What is the difference between HTML `<script>` tags placed in `<head>` versus at the end of the `<body>`?_**
+
+Scripts in the `<head>` block rendering until they load, while scripts placed before `</body`> allow the HTML content to load first, improving perceived performance.
+
+25. **_What is the role of the action attribute in a form tag?_**
+
+The action attribute specifies where to send the form data when the form is submitted.
+
+26. **_What is the placeholder attribute in HTML?_**
+
+It provides a hint to the user of what they should enter into an input field, visible before the user types.
+
+27. **_How does HTML5 improve form validation?_**
+
+HTML5 introduces built-in validation features, such as required, pattern, email, and number input types, without relying on JavaScript.
